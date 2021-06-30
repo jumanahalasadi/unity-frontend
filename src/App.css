@@ -1,0 +1,10 @@
+body {
+  background: linear-gradient(rgb(169, 228, 247), rgb(191, 241, 178));
+  /* background: whitesmoke; */
+
+  height: 220vh;
+}
+
+* {
+  box-sizing: border-box;
+}

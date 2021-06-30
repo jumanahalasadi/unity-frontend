@@ -1,0 +1,24 @@
+.form-control-checkbox {
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+    width: 300px;
+}
+
+input[type="checkbox"]  {
+    display: flex;
+    margin-right: 10px;
+}
+
+label {
+    min-width: 250px;
+    font-size: 1.2rem;
+    padding-bottom: 5px;
+}
+
+@media only screen and (min-width: 800px) {
+    .form-control-checkbox {
+        width: 600px;
+    }
+}
