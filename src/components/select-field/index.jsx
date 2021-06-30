@@ -4,7 +4,7 @@ import './styles.css';
 export const Select = ({ onChange, errors, name, label, register, required, options }) =>  {
 
   const optionsItems = options.map( (option) => {
-    return (<option key={option.id} value={option.value}>{option.value}</option>)
+    return (<option key={option.id} value={option.value}>{option.value.toUpperCase()}</option>)
   });
 
   return (

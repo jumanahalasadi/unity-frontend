@@ -20,6 +20,14 @@ export const GAME_CATEGORIES_LIST = [
         id: 5,
         value: "football"
     },
+    {
+        id: 6,
+        value: "olympics"
+    },
+    {
+        id: 7,
+        value: "other"
+    },
 
 ];
 
@@ -32,7 +40,12 @@ export const GAME_TYPES_LIST = [
 
     {
         id: 2,
-        value: "recap"
+        value: "upcoming"
+    },
+
+    {
+        id: 3,
+        value: "other"
     },
 
 ];
